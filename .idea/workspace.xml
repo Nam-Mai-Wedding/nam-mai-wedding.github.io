@@ -3,8 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="3a70fb32-68ba-4ed0-9b19-07289e4ff0af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/honcayeu.flac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/honcayeu.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/NBK09153.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/NBK09153.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chu_re.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/co_dau.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +30,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kHIkO3CyAtbUp2Ytf91kWgBYxZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,21 +41,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/images/map" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3a70fb32-68ba-4ed0-9b19-07289e4ff0af" name="Default Changelist" comment="" />
@@ -50,24 +71,21 @@
       <workItem from="1606180992335" duration="446000" />
       <workItem from="1607096524889" duration="4402000" />
       <workItem from="1607960885735" duration="217000" />
+      <workItem from="1631609034841" duration="2014000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607097800629">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="378" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1631610719392">
+      <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1607097800629" />
-    <state x="100" y="100" width="1240" height="700" key="dock-window-1" timestamp="1607097358027">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="378" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1280.702@0.25.1280.702" timestamp="1631610719392" />
+    <state x="418" y="25" width="664" height="702" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1631611095338">
+      <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state x="100" y="100" width="1240" height="700" key="dock-window-1/0.0.1440.900@0.0.1440.900" timestamp="1607097358027" />
-    <state x="418" y="205" width="604" height="490" key="find.popup" timestamp="1607142268775">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="418" y="205" width="604" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1607142268775" />
+    <state x="418" y="25" width="664" height="702" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1280.702@0.25.1280.702" timestamp="1631611095338" />
   </component>
 </project>
