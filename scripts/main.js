@@ -1,6 +1,17 @@
 // Add your javascript here
 // Don't forget to add it into respective layouts where this js file is needed
 $(document).ready(function () {
+    $(window).bind('mousewheel', function (event) {
+        if (event.originalEvent.wheelDelta >= 0) {
+            console.log('Scroll up');
+        } else {
+            let player = document.getElementById('player');
+            if (player.paused === true) {
+                player.play();
+            }
+        }
+    });
+
     $("#map-image").on("click")
     {
 
