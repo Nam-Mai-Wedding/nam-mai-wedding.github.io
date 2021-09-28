@@ -9763,6 +9763,16 @@ body {
     min-height: 480px;
 }
 
+@media (pointer: none), (pointer: coarse) {
+    .ww-home-page {
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/pic1.jpg") no-repeat center center;
+        background-size: cover;
+        background-position: 50%;
+        height: 100vh;
+        min-height: 480px;
+    }
+}
+
 .ww-home-page .ww-wedding-announcement {
     width: 100%;
     max-width: 1600px;
