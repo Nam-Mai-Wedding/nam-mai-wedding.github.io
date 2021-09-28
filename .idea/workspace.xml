@@ -4,7 +4,8 @@
     <list default="true" id="3a70fb32-68ba-4ed0-9b19-07289e4ff0af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mus.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +32,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/images/map" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
@@ -58,7 +59,8 @@
       <workItem from="1607960885735" duration="217000" />
       <workItem from="1631609034841" duration="2303000" />
       <workItem from="1632750302206" duration="1209000" />
-      <workItem from="1632790447041" duration="4906000" />
+      <workItem from="1632790447041" duration="5068000" />
+      <workItem from="1632815340185" duration="1877000" />
     </task>
     <servers />
   </component>
@@ -66,6 +68,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="183" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632815360089">
+      <screen x="0" y="25" width="1280" height="702" />
+    </state>
+    <state x="361" y="183" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1280.702@0.25.1280.702" timestamp="1632815360089" />
     <state x="378" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632790716857">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
@@ -74,9 +80,9 @@
       <screen x="0" y="25" width="1280" height="702" />
     </state>
     <state x="418" y="25" width="664" height="702" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1280.702@0.25.1280.702" timestamp="1632791253240" />
-    <state x="300" y="140" width="680" height="472" key="find.popup" timestamp="1631612737198">
+    <state x="300" y="140" width="680" height="472" key="find.popup" timestamp="1632817455254">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state x="300" y="140" width="680" height="472" key="find.popup/0.25.1280.702@0.25.1280.702" timestamp="1631612737198" />
+    <state x="300" y="140" width="680" height="472" key="find.popup/0.25.1280.702@0.25.1280.702" timestamp="1632817455254" />
   </component>
 </project>
