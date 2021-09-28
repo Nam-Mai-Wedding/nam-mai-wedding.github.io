@@ -4,8 +4,6 @@
     <list default="true" id="3a70fb32-68ba-4ed0-9b19-07289e4ff0af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mus.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +25,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/gift" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -36,6 +34,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/gift" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/images/map" />
       <recent name="$PROJECT_DIR$" />
@@ -60,7 +59,7 @@
       <workItem from="1631609034841" duration="2303000" />
       <workItem from="1632750302206" duration="1209000" />
       <workItem from="1632790447041" duration="5068000" />
-      <workItem from="1632815340185" duration="1877000" />
+      <workItem from="1632815340185" duration="4559000" />
     </task>
     <servers />
   </component>
@@ -76,13 +75,13 @@
       <screen x="0" y="25" width="1280" height="702" />
     </state>
     <state x="378" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1280.702@0.25.1280.702" timestamp="1632790716857" />
-    <state x="418" y="25" width="664" height="702" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1632791253240">
+    <state x="418" y="25" width="664" height="702" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1632817586353">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state x="418" y="25" width="664" height="702" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1280.702@0.25.1280.702" timestamp="1632791253240" />
-    <state x="300" y="140" width="680" height="472" key="find.popup" timestamp="1632817455254">
+    <state x="418" y="25" width="664" height="702" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1280.702@0.25.1280.702" timestamp="1632817586353" />
+    <state x="300" y="140" width="680" height="472" key="find.popup" timestamp="1632818544151">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state x="300" y="140" width="680" height="472" key="find.popup/0.25.1280.702@0.25.1280.702" timestamp="1632817455254" />
+    <state x="300" y="140" width="680" height="472" key="find.popup/0.25.1280.702@0.25.1280.702" timestamp="1632818544151" />
   </component>
 </project>
