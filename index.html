@@ -19,12 +19,19 @@
     <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Gugi|Noto+Serif+KR|Stylish|Sunflower:300"
           rel="stylesheet">
     <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
 
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"
+            type="text/javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+
     <script type="text/javascript">
         function sendMail() {
 
@@ -57,42 +64,48 @@
 
         $(document).ready(function () {
 
-            // try {
-            //     var player = document.getElementById('player');
-            //     console.log('============ player  =========', player)
-            //     player.play();
-            // } catch (e) {
-            //     console.log('============ player error  =========', e)
-            // }
-            $bootbox.dialog({
-                title: 'A custom dialog with buttons and callbacks',
-                message: "<p>This dialog has buttons. Each button has it's own callback function.</p>",
+            bootbox.dialog({
+                title: 'Chào bạn đã đến ! ',
+                message: "<p>Để thêm phần lãng mạn bọn mình sẽ phát cho bạn nghe thêm một bản nhạc !</p> \n Bạn có thể tắt nhạc ở góc trái màn hình nhé <3 ",
                 size: 'large',
                 buttons: {
                     cancel: {
-                        label: "I'm a cancel button!",
+                        label: "Không !",
                         className: 'btn-danger',
-                        callback: function(){
-                            console.log('Custom cancel clicked');
+                        callback: function () {
+                            try {
+                                var player = document.getElementById('player');
+                                console.log('============ player  =========', player)
+                                player.play();
+                            } catch (e) {
+                                console.log('============ player error  =========', e)
+                            }
                         }
                     },
-                    noclose: {
-                        label: "I don't close the modal!",
-                        className: 'btn-warning',
-                        callback: function(){
-                            console.log('Custom button clicked');
-                            return false;
-                        }
-                    },
+                    // noclose: {
+                    //     label: "I don't close the modal!",
+                    //     className: 'btn-warning',
+                    //     callback: function () {
+                    //         console.log('Custom button clicked');
+                    //         return false;
+                    //     }
+                    // },
                     ok: {
-                        label: "I'm an OK button!",
+                        label: "OK nhé !",
                         className: 'btn-info',
-                        callback: function(){
-                            console.log('Custom OK clicked');
+                        callback: function () {
+                            try {
+                                var player = document.getElementById('player');
+                                console.log('============ player  =========', player)
+                                player.play();
+                            } catch (e) {
+                                console.log('============ player error  =========', e)
+                            }
                         }
                     }
                 }
             });
+
             function getText() {
                 var result = null;
                 $.ajax({
@@ -266,9 +279,29 @@
                                     <img alt="Gallery Pic 4" class="img-fluid" src="images/pic3.jpg"/>
                                 </a>
                             </div>
+                            <div class="card" data-groups="[&quot;party&quot;,&quot;vacation&quot;]">
+                                <a data-gallery="ww-gallery" data-toggle="lightbox">
+                                    <img alt="Gallery Pic 4" class="img-fluid" src="images/pic25.jpg"/>
+                                </a>
+                            </div>
+                            <div class="card" data-groups="[&quot;party&quot;,&quot;vacation&quot;]">
+                                <a data-gallery="ww-gallery" data-toggle="lightbox">
+                                    <img alt="Gallery Pic 4" class="img-fluid" src="images/pic26.jpg"/>
+                                </a>
+                            </div>
+                            <div class="card" data-groups="[&quot;party&quot;,&quot;vacation&quot;]">
+                                <a data-gallery="ww-gallery" data-toggle="lightbox">
+                                    <img alt="Gallery Pic 4" class="img-fluid" src="images/pic27.jpg"/>
+                                </a>
+                            </div>
                             <div class="card" data-groups="[&quot;vacation&quot;]">
                                 <a data-gallery="ww-gallery" data-toggle="lightbox">
                                     <img alt="Gallery Pic 5" class="img-fluid" src="images/pic4.jpg"/>
+                                </a>
+                            </div>
+                            <div class="card" data-groups="[&quot;vacation&quot;]">
+                                <a data-gallery="ww-gallery" data-toggle="lightbox">
+                                    <img alt="Gallery Pic 5" class="img-fluid" src="images/pic28.jpg"/>
                                 </a>
                             </div>
                             <div class="card"
@@ -523,9 +556,9 @@
 <script>
     function myFunction() {
         let player = document.getElementById('player');
-        if(player.paused === true){
+        if (player.paused === true) {
             player.play();
-        }else {
+        } else {
             player.pause();
         }
     }
