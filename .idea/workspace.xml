@@ -25,7 +25,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/gift" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -71,10 +71,10 @@
       <screen x="0" y="25" width="1280" height="702" />
     </state>
     <state x="361" y="183" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1280.702@0.25.1280.702" timestamp="1632815360089" />
-    <state x="378" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632790716857">
+    <state x="378" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632825502331">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state x="378" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1280.702@0.25.1280.702" timestamp="1632790716857" />
+    <state x="378" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1280.702@0.25.1280.702" timestamp="1632825502331" />
     <state x="418" y="25" width="664" height="702" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1632817586353">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
