@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Gugi|Noto+Serif+KR|Stylish|Sunflower:300"
           rel="stylesheet">
     <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
 
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -55,14 +56,43 @@
         }
 
         $(document).ready(function () {
-            try {
-                var player = document.getElementById('player');
-                console.log('============ player  =========', player)
-                player.play();
-            } catch (e) {
-                console.log('============ player error  =========', e)
-            }
 
+            // try {
+            //     var player = document.getElementById('player');
+            //     console.log('============ player  =========', player)
+            //     player.play();
+            // } catch (e) {
+            //     console.log('============ player error  =========', e)
+            // }
+            $bootbox.dialog({
+                title: 'A custom dialog with buttons and callbacks',
+                message: "<p>This dialog has buttons. Each button has it's own callback function.</p>",
+                size: 'large',
+                buttons: {
+                    cancel: {
+                        label: "I'm a cancel button!",
+                        className: 'btn-danger',
+                        callback: function(){
+                            console.log('Custom cancel clicked');
+                        }
+                    },
+                    noclose: {
+                        label: "I don't close the modal!",
+                        className: 'btn-warning',
+                        callback: function(){
+                            console.log('Custom button clicked');
+                            return false;
+                        }
+                    },
+                    ok: {
+                        label: "I'm an OK button!",
+                        className: 'btn-info',
+                        callback: function(){
+                            console.log('Custom OK clicked');
+                        }
+                    }
+                }
+            });
             function getText() {
                 var result = null;
                 $.ajax({
